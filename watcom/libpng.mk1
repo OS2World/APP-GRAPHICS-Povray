@@ -1,0 +1,148 @@
+!define BLANK ""
+f:\program\povport\povray31\watcom\ansi2knr.obj : f:\program\povport\povray3&
+1\source\libpng\ansi2knr.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\ansi2knr.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\png.obj : f:\program\povport\povray31\sou&
+rce\libpng\png.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\png.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\zli&
+b -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngerror.obj : f:\program\povport\povray3&
+1\source\libpng\pngerror.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngerror.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngget.obj : f:\program\povport\povray31\&
+source\libpng\pngget.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngget.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\&
+zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngmem.obj : f:\program\povport\povray31\&
+source\libpng\pngmem.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngmem.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\&
+zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngpread.obj : f:\program\povport\povray3&
+1\source\libpng\pngpread.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngpread.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngread.obj : f:\program\povport\povray31&
+\source\libpng\pngread.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngread.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source&
+\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngrio.obj : f:\program\povport\povray31\&
+source\libpng\pngrio.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngrio.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\&
+zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngrtran.obj : f:\program\povport\povray3&
+1\source\libpng\pngrtran.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngrtran.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngrutil.obj : f:\program\povport\povray3&
+1\source\libpng\pngrutil.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngrutil.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngset.obj : f:\program\povport\povray31\&
+source\libpng\pngset.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngset.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\&
+zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngtest.obj : f:\program\povport\povray31&
+\source\libpng\pngtest.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngtest.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source&
+\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngtrans.obj : f:\program\povport\povray3&
+1\source\libpng\pngtrans.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngtrans.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngwio.obj : f:\program\povport\povray31\&
+source\libpng\pngwio.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngwio.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\&
+zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngwrite.obj : f:\program\povport\povray3&
+1\source\libpng\pngwrite.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngwrite.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngwtran.obj : f:\program\povport\povray3&
+1\source\libpng\pngwtran.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngwtran.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pngwutil.obj : f:\program\povport\povray3&
+1\source\libpng\pngwutil.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\libpng\pngwutil.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\sourc&
+e\zlib -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\libpng.lib : f:\program\povport\povray31\&
+watcom\ansi2knr.obj f:\program\povport\povray31\watcom\png.obj f:\program\po&
+vport\povray31\watcom\pngerror.obj f:\program\povport\povray31\watcom\pngget&
+.obj f:\program\povport\povray31\watcom\pngmem.obj f:\program\povport\povray&
+31\watcom\pngpread.obj f:\program\povport\povray31\watcom\pngread.obj f:\pro&
+gram\povport\povray31\watcom\pngrio.obj f:\program\povport\povray31\watcom\p&
+ngrtran.obj f:\program\povport\povray31\watcom\pngrutil.obj f:\program\povpo&
+rt\povray31\watcom\pngset.obj f:\program\povport\povray31\watcom\pngtest.obj&
+ f:\program\povport\povray31\watcom\pngtrans.obj f:\program\povport\povray31&
+\watcom\pngwio.obj f:\program\povport\povray31\watcom\pngwrite.obj f:\progra&
+m\povport\povray31\watcom\pngwtran.obj f:\program\povport\povray31\watcom\pn&
+gwutil.obj .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ %create libpng.lb1
+!ifneq BLANK "ansi2knr.obj png.obj pngerror.obj pngget.obj pngmem.obj pngpre&
+ad.obj pngread.obj pngrio.obj pngrtran.obj pngrutil.obj pngset.obj pngtest.o&
+bj pngtrans.obj pngwio.obj pngwrite.obj pngwtran.obj pngwutil.obj"
+ @for %i in (ansi2knr.obj png.obj pngerror.obj pngget.obj pngmem.obj pngprea&
+d.obj pngread.obj pngrio.obj pngrtran.obj pngrutil.obj pngset.obj pngtest.ob&
+j pngtrans.obj pngwio.obj pngwrite.obj pngwtran.obj pngwutil.obj) do @%appen&
+d libpng.lb1 +'%i'
+!endif
+!ifneq BLANK ""
+ @for %i in () do @%append libpng.lb1 +'%i'
+!endif
+ *wlib -b -c -n -q -p=512 libpng.lib @libpng.lb1
+

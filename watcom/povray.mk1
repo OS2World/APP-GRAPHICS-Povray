@@ -1,0 +1,620 @@
+!define BLANK ""
+f:\program\povport\povray31\watcom\atmosph.obj : f:\program\povport\povray31&
+\source\atmosph.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\atmosph.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\bbox.obj : f:\program\povport\povray31\so&
+urce\bbox.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\bbox.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\so&
+urce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -&
+5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\bcyl.obj : f:\program\povport\povray31\so&
+urce\bcyl.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\bcyl.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\so&
+urce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -&
+5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\bezier.obj : f:\program\povport\povray31\&
+source\bezier.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\bezier.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\blob.obj : f:\program\povport\povray31\so&
+urce\blob.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\blob.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\so&
+urce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -&
+5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\boxes.obj : f:\program\povport\povray31\s&
+ource\boxes.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\boxes.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\bsphere.obj : f:\program\povport\povray31&
+\source\bsphere.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\bsphere.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\camera.obj : f:\program\povport\povray31\&
+source\camera.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\camera.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\chi2.obj : f:\program\povport\povray31\so&
+urce\chi2.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\chi2.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\so&
+urce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -&
+5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\colour.obj : f:\program\povport\povray31\&
+source\colour.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\colour.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\cones.obj : f:\program\povport\povray31\s&
+ource\cones.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\cones.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\csg.obj : f:\program\povport\povray31\sou&
+rce\csg.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\csg.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\discs.obj : f:\program\povport\povray31\s&
+ource\discs.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\discs.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\express.obj : f:\program\povport\povray31&
+\source\express.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\express.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\fractal.obj : f:\program\povport\povray31&
+\source\fractal.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\fractal.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\gif.obj : f:\program\povport\povray31\sou&
+rce\gif.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\gif.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\gifdecod.obj : f:\program\povport\povray3&
+1\source\gifdecod.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\gifdecod.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\hcmplx.obj : f:\program\povport\povray31\&
+source\hcmplx.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\hcmplx.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\hfield.obj : f:\program\povport\povray31\&
+source\hfield.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\hfield.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\iff.obj : f:\program\povport\povray31\sou&
+rce\iff.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\iff.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\image.obj : f:\program\povport\povray31\s&
+ource\image.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\image.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\interior.obj : f:\program\povport\povray3&
+1\source\interior.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\interior.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\lathe.obj : f:\program\povport\povray31\s&
+ource\lathe.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\lathe.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\lbuffer.obj : f:\program\povport\povray31&
+\source\lbuffer.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\lbuffer.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\lighting.obj : f:\program\povport\povray3&
+1\source\lighting.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\lighting.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\matrices.obj : f:\program\povport\povray3&
+1\source\matrices.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\matrices.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\media.obj : f:\program\povport\povray31\s&
+ource\media.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\media.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\mem.obj : f:\program\povport\povray31\sou&
+rce\mem.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\mem.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\mesh.obj : f:\program\povport\povray31\so&
+urce\mesh.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\mesh.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\so&
+urce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -&
+5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\normal.obj : f:\program\povport\povray31\&
+source\normal.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\normal.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\objects.obj : f:\program\povport\povray31&
+\source\objects.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\objects.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\octree.obj : f:\program\povport\povray31\&
+source\octree.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\octree.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\optin.obj : f:\program\povport\povray31\s&
+ource\optin.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\optin.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\optout.obj : f:\program\povport\povray31\&
+source\optout.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\optout.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\os2.obj : f:\program\povport\povray31\sou&
+rce\os2\os2.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\os2\os2.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\parse.obj : f:\program\povport\povray31\s&
+ource\parse.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\parse.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\parstxtr.obj : f:\program\povport\povray3&
+1\source\parstxtr.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\parstxtr.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pattern.obj : f:\program\povport\povray31&
+\source\pattern.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\pattern.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pgm.obj : f:\program\povport\povray31\sou&
+rce\pgm.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\pgm.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\pigment.obj : f:\program\povport\povray31&
+\source\pigment.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\pigment.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\planes.obj : f:\program\povport\povray31\&
+source\planes.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\planes.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\png_pov.obj : f:\program\povport\povray31&
+\source\png_pov.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\png_pov.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\point.obj : f:\program\povport\povray31\s&
+ource\point.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\point.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\poly.obj : f:\program\povport\povray31\so&
+urce\poly.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\poly.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\so&
+urce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -&
+5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\polygon.obj : f:\program\povport\povray31&
+\source\polygon.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\polygon.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\polysolv.obj : f:\program\povport\povray3&
+1\source\polysolv.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\polysolv.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\povray.obj : f:\program\povport\povray31\&
+source\povray.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\povray.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\ppm.obj : f:\program\povport\povray31\sou&
+rce\ppm.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\ppm.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\prism.obj : f:\program\povport\povray31\s&
+ource\prism.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\prism.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\quadrics.obj : f:\program\povport\povray3&
+1\source\quadrics.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\quadrics.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\quatern.obj : f:\program\povport\povray31&
+\source\quatern.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\quatern.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\rad_data.obj : f:\program\povport\povray3&
+1\source\rad_data.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\rad_data.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\radiosit.obj : f:\program\povport\povray3&
+1\source\radiosit.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\radiosit.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\ray.obj : f:\program\povport\povray31\sou&
+rce\ray.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\ray.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\render.obj : f:\program\povport\povray31\&
+source\render.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\render.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\sor.obj : f:\program\povport\povray31\sou&
+rce\sor.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\sor.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\sou&
+rce\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 -5&
+r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\spheres.obj : f:\program\povport\povray31&
+\source\spheres.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\spheres.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\super.obj : f:\program\povport\povray31\s&
+ource\super.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\super.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\targa.obj : f:\program\povport\povray31\s&
+ource\targa.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\targa.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\texture.obj : f:\program\povport\povray31&
+\source\texture.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\texture.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\tokenize.obj : f:\program\povport\povray3&
+1\source\tokenize.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\tokenize.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\torus.obj : f:\program\povport\povray31\s&
+ource\torus.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\torus.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\triangle.obj : f:\program\povport\povray3&
+1\source\triangle.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\triangle.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\truetype.obj : f:\program\povport\povray3&
+1\source\truetype.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\truetype.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\txttest.obj : f:\program\povport\povray31&
+\source\txttest.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\txttest.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\userio.obj : f:\program\povport\povray31\&
+source\userio.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\userio.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\&
+source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87&
+ -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\vbuffer.obj : f:\program\povport\povray31&
+\source\vbuffer.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\vbuffer.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..&
+\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi8&
+7 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\vlbuffer.obj : f:\program\povport\povray3&
+1\source\vlbuffer.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\vlbuffer.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;.&
+.\source\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi&
+87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\warps.obj : f:\program\povport\povray31\s&
+ource\warps.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\warps.c -i=e:\WATCOM\h;e:\WATCOM\h\os2;..\source\os2;..\s&
+ource\libpng;..\source\zlib;..\source -w4 -e25 -zp8 -zq -otexan -fp5 -fpi87 &
+-5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\povray.exe : f:\program\povport\povray31\&
+watcom\atmosph.obj f:\program\povport\povray31\watcom\bbox.obj f:\program\po&
+vport\povray31\watcom\bcyl.obj f:\program\povport\povray31\watcom\bezier.obj&
+ f:\program\povport\povray31\watcom\blob.obj f:\program\povport\povray31\wat&
+com\boxes.obj f:\program\povport\povray31\watcom\bsphere.obj f:\program\povp&
+ort\povray31\watcom\camera.obj f:\program\povport\povray31\watcom\chi2.obj f&
+:\program\povport\povray31\watcom\colour.obj f:\program\povport\povray31\wat&
+com\cones.obj f:\program\povport\povray31\watcom\csg.obj f:\program\povport\&
+povray31\watcom\discs.obj f:\program\povport\povray31\watcom\express.obj f:\&
+program\povport\povray31\watcom\fractal.obj f:\program\povport\povray31\watc&
+om\gif.obj f:\program\povport\povray31\watcom\gifdecod.obj f:\program\povpor&
+t\povray31\watcom\hcmplx.obj f:\program\povport\povray31\watcom\hfield.obj f&
+:\program\povport\povray31\watcom\iff.obj f:\program\povport\povray31\watcom&
+\image.obj f:\program\povport\povray31\watcom\interior.obj f:\program\povpor&
+t\povray31\watcom\lathe.obj f:\program\povport\povray31\watcom\lbuffer.obj f&
+:\program\povport\povray31\watcom\lighting.obj f:\program\povport\povray31\w&
+atcom\matrices.obj f:\program\povport\povray31\watcom\media.obj f:\program\p&
+ovport\povray31\watcom\mem.obj f:\program\povport\povray31\watcom\mesh.obj f&
+:\program\povport\povray31\watcom\normal.obj f:\program\povport\povray31\wat&
+com\objects.obj f:\program\povport\povray31\watcom\octree.obj f:\program\pov&
+port\povray31\watcom\optin.obj f:\program\povport\povray31\watcom\optout.obj&
+ f:\program\povport\povray31\watcom\os2.obj f:\program\povport\povray31\watc&
+om\parse.obj f:\program\povport\povray31\watcom\parstxtr.obj f:\program\povp&
+ort\povray31\watcom\pattern.obj f:\program\povport\povray31\watcom\pgm.obj f&
+:\program\povport\povray31\watcom\pigment.obj f:\program\povport\povray31\wa&
+tcom\planes.obj f:\program\povport\povray31\watcom\png_pov.obj f:\program\po&
+vport\povray31\watcom\point.obj f:\program\povport\povray31\watcom\poly.obj &
+f:\program\povport\povray31\watcom\polygon.obj f:\program\povport\povray31\w&
+atcom\polysolv.obj f:\program\povport\povray31\watcom\povray.obj f:\program\&
+povport\povray31\watcom\ppm.obj f:\program\povport\povray31\watcom\prism.obj&
+ f:\program\povport\povray31\watcom\quadrics.obj f:\program\povport\povray31&
+\watcom\quatern.obj f:\program\povport\povray31\watcom\rad_data.obj f:\progr&
+am\povport\povray31\watcom\radiosit.obj f:\program\povport\povray31\watcom\r&
+ay.obj f:\program\povport\povray31\watcom\render.obj f:\program\povport\povr&
+ay31\watcom\sor.obj f:\program\povport\povray31\watcom\spheres.obj f:\progra&
+m\povport\povray31\watcom\super.obj f:\program\povport\povray31\watcom\targa&
+.obj f:\program\povport\povray31\watcom\texture.obj f:\program\povport\povra&
+y31\watcom\tokenize.obj f:\program\povport\povray31\watcom\torus.obj f:\prog&
+ram\povport\povray31\watcom\triangle.obj f:\program\povport\povray31\watcom\&
+truetype.obj f:\program\povport\povray31\watcom\txttest.obj f:\program\povpo&
+rt\povray31\watcom\userio.obj f:\program\povport\povray31\watcom\vbuffer.obj&
+ f:\program\povport\povray31\watcom\vlbuffer.obj f:\program\povport\povray31&
+\watcom\warps.obj f:\program\povport\povray31\watcom\libpng.lib f:\program\p&
+ovport\povray31\watcom\zlib.lib .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ @%write povray.lk1 FIL atmosph.obj,bbox.obj,bcyl.obj,bezier.obj,blob.obj,bo&
+xes.obj,bsphere.obj,camera.obj,chi2.obj,colour.obj,cones.obj,csg.obj,discs.o&
+bj,express.obj,fractal.obj,gif.obj,gifdecod.obj,hcmplx.obj,hfield.obj,iff.ob&
+j,image.obj,interior.obj,lathe.obj,lbuffer.obj,lighting.obj,matrices.obj,med&
+ia.obj,mem.obj,mesh.obj,normal.obj,objects.obj,octree.obj,optin.obj,optout.o&
+bj,os2.obj,parse.obj,parstxtr.obj,pattern.obj,pgm.obj,pigment.obj,planes.obj&
+,png_pov.obj,point.obj,poly.obj,polygon.obj,polysolv.obj,povray.obj,ppm.obj,&
+prism.obj,quadrics.obj,quatern.obj,rad_data.obj,radiosit.obj,ray.obj,render.&
+obj,sor.obj,spheres.obj,super.obj,targa.obj,texture.obj,tokenize.obj,torus.o&
+bj,triangle.obj,truetype.obj,txttest.obj,userio.obj,vbuffer.obj,vlbuffer.obj&
+,warps.obj
+ @%append povray.lk1 LIBR libpng.lib,zlib.lib
+!ifneq BLANK ""
+ *wlib -q -n -b povray.imp 
+ @%append povray.lk1 LIBR povray.imp
+!endif
+ *wlink name povray SYS os2v2 op m op maxe=25 op q op symf @povray.lk1
+!ifneq BLANK ""
+ rc -i $[: -i e:\WATCOM\h -i e:\WATCOM\h\os2  povray.exe
+!endif
+

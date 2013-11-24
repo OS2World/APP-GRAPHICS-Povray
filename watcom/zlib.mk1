@@ -1,0 +1,140 @@
+!define BLANK ""
+f:\program\povport\povray31\watcom\adler32.obj : f:\program\povport\povray31&
+\source\zlib\adler32.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\adler32.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -z&
+p8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\compress.obj : f:\program\povport\povray3&
+1\source\zlib\compress.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\compress.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -&
+zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\crc32.obj : f:\program\povport\povray31\s&
+ource\zlib\crc32.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\crc32.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -zp8&
+ -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\deflate.obj : f:\program\povport\povray31&
+\source\zlib\deflate.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\deflate.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -z&
+p8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\gzio.obj : f:\program\povport\povray31\so&
+urce\zlib\gzio.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\gzio.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -zp8 &
+-zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\infblock.obj : f:\program\povport\povray3&
+1\source\zlib\infblock.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\infblock.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -&
+zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\infcodes.obj : f:\program\povport\povray3&
+1\source\zlib\infcodes.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\infcodes.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -&
+zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\inffast.obj : f:\program\povport\povray31&
+\source\zlib\inffast.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\inffast.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -z&
+p8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\inflate.obj : f:\program\povport\povray31&
+\source\zlib\inflate.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\inflate.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -z&
+p8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\inftrees.obj : f:\program\povport\povray3&
+1\source\zlib\inftrees.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\inftrees.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -&
+zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\infutil.obj : f:\program\povport\povray31&
+\source\zlib\infutil.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\infutil.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -z&
+p8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\maketree.obj : f:\program\povport\povray3&
+1\source\zlib\maketree.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\maketree.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -&
+zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\minigzip.obj : f:\program\povport\povray3&
+1\source\zlib\minigzip.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\minigzip.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -&
+zp8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\trees.obj : f:\program\povport\povray31\s&
+ource\zlib\trees.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\trees.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -zp8&
+ -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\uncompr.obj : f:\program\povport\povray31&
+\source\zlib\uncompr.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\uncompr.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -z&
+p8 -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\zutil.obj : f:\program\povport\povray31\s&
+ource\zlib\zutil.c .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ *wcc386 ..\source\zlib\zutil.c -i=e:\WATCOM\h;e:\WATCOM\h\os2 -w4 -e25 -zp8&
+ -zq -otexan -fp5 -fpi87 -5r -bt=os2 -mf
+
+f:\program\povport\povray31\watcom\zlib.lib : f:\program\povport\povray31\wa&
+tcom\adler32.obj f:\program\povport\povray31\watcom\compress.obj f:\program\&
+povport\povray31\watcom\crc32.obj f:\program\povport\povray31\watcom\deflate&
+.obj f:\program\povport\povray31\watcom\gzio.obj f:\program\povport\povray31&
+\watcom\infblock.obj f:\program\povport\povray31\watcom\infcodes.obj f:\prog&
+ram\povport\povray31\watcom\inffast.obj f:\program\povport\povray31\watcom\i&
+nflate.obj f:\program\povport\povray31\watcom\inftrees.obj f:\program\povpor&
+t\povray31\watcom\infutil.obj f:\program\povport\povray31\watcom\maketree.ob&
+j f:\program\povport\povray31\watcom\minigzip.obj f:\program\povport\povray3&
+1\watcom\trees.obj f:\program\povport\povray31\watcom\uncompr.obj f:\program&
+\povport\povray31\watcom\zutil.obj .AUTODEPEND
+ @f:
+ cd f:\program\povport\povray31\watcom
+ %create zlib.lb1
+!ifneq BLANK "adler32.obj compress.obj crc32.obj deflate.obj gzio.obj infblo&
+ck.obj infcodes.obj inffast.obj inflate.obj inftrees.obj infutil.obj maketre&
+e.obj minigzip.obj trees.obj uncompr.obj zutil.obj"
+ @for %i in (adler32.obj compress.obj crc32.obj deflate.obj gzio.obj infbloc&
+k.obj infcodes.obj inffast.obj inflate.obj inftrees.obj infutil.obj maketree&
+.obj minigzip.obj trees.obj uncompr.obj zutil.obj) do @%append zlib.lb1 +'%i&
+'
+!endif
+!ifneq BLANK ""
+ @for %i in () do @%append zlib.lb1 +'%i'
+!endif
+ *wlib -b -c -n -q -p=512 zlib.lib @zlib.lb1
+
